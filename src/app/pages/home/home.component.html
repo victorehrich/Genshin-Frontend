@@ -1,0 +1,13 @@
+<mat-grid-list cols="4" rowHeight="2:1" gutterSize="2rem">
+    <a *ngFor="let item of items" [routerLink]="item.path" 
+    [ngClass]="!item.path || item.path === '/' ? 'disabled-link' : 'activeted-link'">
+        <mat-grid-tile >
+            <div class="button-with-icon">
+                <mat-icon *ngIf="item.icon" [svgIcon]="item.icon"></mat-icon>
+                <label>            
+                    {{item.label}}
+                </label>
+            </div>
+        </mat-grid-tile>
+    </a>
+</mat-grid-list>

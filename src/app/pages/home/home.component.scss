@@ -1,0 +1,16 @@
+mat-grid-tile {
+    background: var(--light-blue);
+    border-radius: 1rem;
+}
+
+label{
+    color: var(--black);
+    cursor: pointer;
+}
+
+.disabled-link {
+    pointer-events: none;
+    mat-grid-tile{
+        background: #dddddd;
+    }
+  }
