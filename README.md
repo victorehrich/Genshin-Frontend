@@ -1,7 +1,7 @@
 # GenshinFront
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
-
+Frontend da aplicação genshin library, que servirá como acervo de conteúdo relacionado ao jogo Genshin Impact
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
