@@ -8,5 +8,6 @@ export enum locationEnum{
     SNEZHNAYA,
     KHAENRIAH,
     CELESTIA,
-    DARKSEA
+    DARKSEA,
+    UNKNOWN
 }

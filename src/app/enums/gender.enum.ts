@@ -1,4 +1,5 @@
 export enum GenderEnum{
     ARROMBARDO,
-    WAIFU
+    WAIFU,
+    CHIBI
 } 

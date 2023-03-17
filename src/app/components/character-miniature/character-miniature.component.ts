@@ -10,7 +10,7 @@ export class CharacterMiniatureComponent {
   @Input() character!: CharactersHomeInterface
 
   getCharacterUrlImg(){
-    return "../../../assets/characters/"+this.character.name+".png"
+    return "../../../assets/characters/"+this.character.element+"/"+this.character.name+".png"
   }
   getCharacterElementIcon(){
     return "../../../assets/elements/"+this.character.element.toLocaleLowerCase()+"256x256.png"
