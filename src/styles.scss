@@ -17,3 +17,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
         padding-right: 8px;
     }
 }
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}

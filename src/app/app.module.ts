@@ -9,13 +9,15 @@ import { MaterialModule } from './modules/material/material.module';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HttpClientModule } from "@angular/common/http";
 import { CharactersComponent } from './pages/characters/characters.component';
+import { CharacterMiniatureComponent } from './components/character-miniature/character-miniature.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SidebarComponent,
-    CharactersComponent
+    CharactersComponent,
+    CharacterMiniatureComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,12 @@
+<!-- <a [routerLink]="{'/characters/character.name'}" > -->
+    <div class="character-portrait">
+        <img [src]="getCharacterUrlImg()" class="character-icon" [ngClass]="character.numberOfStars == 'Four' ? 'four-stars' : 'five-stars'">
+        <img [src]="getCharacterElementIcon()" class="element-icon">
+        <label>Name: {{character.name}}</label>
+        <label>Element: {{character.element}}</label>
+        <label>Stars: {{character.numberOfStars}}</label>
+        <label>WeaponType: {{character.weaponType}}</label>
+        <label>Gender: {{character.gender}}</label>
+        <label>Location: {{character.location}}</label>
+    </div>
+<!-- </a> -->

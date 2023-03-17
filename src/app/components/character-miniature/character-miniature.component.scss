@@ -1,0 +1,33 @@
+.character-portrait{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.character-icon{
+    width: 120px;
+    height: 120px;
+    background: #303b7a;
+    border-radius: 4px;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s,-webkit-transform .3s;
+}
+.element-icon{
+    position: relative;
+    padding: 8px;
+    top: -120px;
+    left: 40px;
+    width: 24px;
+    height: 24px;
+    background: var(--white);
+    border-radius: 100px;
+}
+.four-stars{
+    background: rgb(126,84,191);
+    background: linear-gradient(0deg, rgba(126,84,191,1) 63%, rgba(157,133,255,1) 100%);}
+.five-stars{
+    background: rgb(255,170,74);
+    background: linear-gradient(0deg, rgba(255,170,74,1) 63%, rgba(240,170,113,1) 100%);
+}
