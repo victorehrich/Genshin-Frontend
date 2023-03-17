@@ -10,6 +10,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HttpClientModule } from "@angular/common/http";
 import { CharactersComponent } from './pages/characters/characters.component';
 import { CharacterMiniatureComponent } from './components/character-miniature/character-miniature.component';
+import { CharacterPageComponent } from './pages/character-page/character-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CharacterMiniatureComponent } from './components/character-miniature/ch
     HomeComponent,
     SidebarComponent,
     CharactersComponent,
-    CharacterMiniatureComponent
+    CharacterMiniatureComponent,
+    CharacterPageComponent
   ],
   imports: [
     BrowserModule,

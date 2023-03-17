@@ -1,4 +1,4 @@
-<!-- <a [routerLink]="{'/characters/character.name'}" > -->
+<a [routerLink]="'/characters/'+ character.name" >
     <div class="character-portrait">
         <img [src]="getCharacterUrlImg()" class="character-icon" [ngClass]="character.numberOfStars == 'Four' ? 'four-stars' : 'five-stars'">
         <img [src]="getCharacterElementIcon()" class="element-icon">
@@ -9,4 +9,4 @@
         <label>Gender: {{character.gender}}</label>
         <label>Location: {{character.location}}</label>
     </div>
-<!-- </a> -->
+</a>
